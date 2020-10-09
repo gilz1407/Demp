@@ -1,0 +1,12 @@
+{
+  "requests": [
+    {
+      "name": "GenericQuery",
+      "query": {
+        "userName": "",
+        "userId": "",
+        "userAge": 0
+      }
+    }
+  ]
+}
