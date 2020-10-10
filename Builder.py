@@ -10,5 +10,4 @@ class Builder(Ibuilder):
         request_template["userName"] = generic_query.user_name
         request_template["userId"] = generic_query.user_id
         request_template["userAge"] = generic_query.user_age
-        print(request_template)
-        #TODO: rest reuest that receives request_template as parameter
+        response = self.rest.post(request_template)

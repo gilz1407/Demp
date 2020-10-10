@@ -2,9 +2,10 @@
   "requests": [
     {
       "name": "GenericQuery",
+      "url": "",
       "query": {
         "userName": "",
-        "userId": "",
+        "userId": 0,
         "userAge": 0
       }
     }

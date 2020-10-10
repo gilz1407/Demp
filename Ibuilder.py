@@ -1,10 +1,14 @@
 import json
 from abc import ABC
 
+from Rest import Rest
+
+
 class Ibuilder(ABC):
 
     def __init__(self, value):
         self.value = value
+        self.rest = Rest()
         super().__init__()
 
     def read_request_template(self, request_name):
