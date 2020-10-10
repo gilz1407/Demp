@@ -1,6 +1,6 @@
-from Builder import Builder
-from QueryObjects import rest_type_one
+from Builder.Builder import builder
+from QueryObjects import rest_type_gq
 
-builder = Builder()
-gq = rest_type_one(builder)
+
+gq = rest_type_gq()
 builder.generic_query_builder(gq)
