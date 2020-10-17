@@ -1,0 +1,28 @@
+{
+  "requests": [
+    {
+      "request_name": "pet",
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": ""
+      },
+      "name": "",
+      "photoUrls": [
+        ""
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": ""
+        }
+      ],
+      "status": ""
+    },
+    {
+      "request_name": "findByStatus",
+      "request_type": "parameters",
+      "Status": ""
+    }
+  ]
+}

@@ -1,6 +1,7 @@
-from Builder.Builder import builder
-from QueryObjects import rest_type_gq
 
+from Services.PetStore.pet.PetStrategies import PetStrategies
 
-gq = rest_type_gq()
-builder.generic_query_builder(gq)
+ps = PetStrategies(None)
+ps.wrong_type_of_id()
+ps.build_post_request()
+
